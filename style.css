@@ -1,0 +1,67 @@
+#logosearch{
+		position:absolute;
+		top:50%;
+		left:50%;
+		margin-left: -283px;
+		margin-top: -152px;
+	}
+	input[type=text]{
+		width:573px;
+		height:28px;
+
+		border-width:1px;
+		border-style:solid;
+		border-top-color:#c0c0c0;
+		border-right-color:#d9d9d9;
+		border-bottom-color:#d9d9d9;
+		border-left-color:#d9d9d9;
+		background-image:url(microphone.png);
+		background-repeat:no-repeat;
+		background-position: right;
+	}
+	input[type=text]:focus{
+		border-color:#4480e1;
+		outline:none;
+	}
+	input[type=submit]{
+		font-family: Arial, sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		color:#44444e;
+		background-color:#f4f4f4;
+		margin: 11px 8px;
+		min-width:54px;
+		padding:0 8px;
+		text-align:center;
+		border-radius:2px;
+		border:1px solid rgba(0,0,0,0.1);
+		height: 29px;
+		line-height: 27px;
+	}
+	ul{	overflow: hidden;
+		margin: 0; 
+		margin-right:5px;
+		padding: 0;
+		padding-top:4px;
+		list-style-type: none;
+	    float:right;
+	}
+	li {
+	font-family:"Arial Regular";
+	font-size:13px;
+	margin-bottom: 0;  
+	margin-right: 0.35em;
+  	line-height: 24px;
+    display: inline;
+    float:left;
+	}
+	li a{
+	padding: 0.25em 0.5em; 
+	display: block; 
+	border: none;
+	text-decoration:none;
+	color:#514051;
+	}
+	.underlined:hover{
+		text-decoration:underline;
+	}
